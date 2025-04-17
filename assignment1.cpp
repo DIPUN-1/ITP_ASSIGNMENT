@@ -15,7 +15,6 @@ using namespace std;
 //      }
 //  }
 
-
 // 2.Write a C++ program to input 3 sides of triangle and a triangle can be drawn from it or not, if triangle can be drawn then check if it is equilateral, isosceles or scalene triangle.
 // int main()
 // {
@@ -35,7 +34,6 @@ using namespace std;
 //         cout << "Triangle cannot be formed";
 // }
 
-
 // 3.Write a C++ program to find the largest digit in a number.
 //  int main()
 //  {
@@ -48,7 +46,6 @@ using namespace std;
 //      }
 //      cout<<ld;
 //  }
-
 
 // 4.Write a C++ program to input a decimal number and convert it into binary and octal number system using loops.
 // int main()
@@ -85,7 +82,6 @@ using namespace std;
 //     }
 // }
 
-
 // 5.Write a C++ program to check if a Number is Perfect square using loops.
 // int main()
 // {
@@ -105,7 +101,6 @@ using namespace std;
 //         cout << n << " is not a perfect square";
 // }
 
-
 // 6.Write a C++ program to print the pattern
 // int main()
 // {
@@ -124,7 +119,6 @@ using namespace std;
 //         cout << endl;
 //     }
 // }
-
 
 // 7.Write a C++ program to print the pattern
 //  int main()
@@ -147,7 +141,6 @@ using namespace std;
 //          cout<<endl;
 //      }
 //  }
-
 
 // 8. Write a C++ program to print the pattern
 // int main()
@@ -174,4 +167,47 @@ using namespace std;
 //         }
 //         cout << endl;
 //     }
+// }
+
+int main()
+{
+    string a[5] = {"YES", "yES", "yes", "Yes", "YeS"};
+    int n, count = 0;
+    cin >> n;
+    string s;
+    cin>>s;
+    
+        
+        
+        if (strlwr(s) =="yes")
+        {
+            cout << "YES" << endl;
+        }
+        else
+        {
+            cout << "NO" << endl;
+        }
+    }
+
+
+
+// int main(){
+//     int a,b,t,j=0,i=0;
+//     cin>>t;
+//     for ( i = 0; i < t; i++)
+//     {
+//         cin >>a>>b;
+//     }
+//     for (i = 0; i < t; i++)
+//     {
+//         j=0;
+//         while(j){
+//             if(a%b==0){
+//                 break;
+//             }
+//             a++;
+//             j++;
+//         }
+//     }
+//     cout<<i<<endl;
 // }
