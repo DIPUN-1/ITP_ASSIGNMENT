@@ -169,28 +169,6 @@ using namespace std;
 //     }
 // }
 
-int main()
-{
-    string a[5] = {"YES", "yES", "yes", "Yes", "YeS"};
-    int n, count = 0;
-    cin >> n;
-    string s;
-    cin>>s;
-    
-        
-        
-        if (strlwr(s) =="yes")
-        {
-            cout << "YES" << endl;
-        }
-        else
-        {
-            cout << "NO" << endl;
-        }
-    }
-
-
-
 // int main(){
 //     int a,b,t,j=0,i=0;
 //     cin>>t;
